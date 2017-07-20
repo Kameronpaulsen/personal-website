@@ -2,8 +2,8 @@
 var current_item = 0;
 
 // few settings
-var section_hide_time = 1300;
-var section_show_time = 1300;
+var section_hide_time = 1000;
+var section_show_time = 1000;
 
 // jQuery stuff
 jQuery(document).ready(function($) {
@@ -22,5 +22,13 @@ jQuery(document).ready(function($) {
 			} );
 		}
 		return false;
-	});		
+	});
+	
+	$('.dropdown ul li a').click(function() {
+        /* always close responsive nav after click */
+	setTimeout(func, 1000);
+	function func() {
+    	$('.navbar-toggle:visible').click();
+	}
+    });		
 });
