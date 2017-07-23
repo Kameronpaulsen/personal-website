@@ -127,6 +127,7 @@ body {
 	   -moz-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
+	        background-repeat:no-repeat;
 } 
 @media (min-width: 768px) {
 	.section { padding-top:80px;}
