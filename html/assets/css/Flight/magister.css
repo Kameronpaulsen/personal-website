@@ -121,7 +121,7 @@ body {
 	color: white;
 	color: inherit;
 	top:0;
-	background:#505D6E url(../../img/Flight/Flight4.jpg) no-repeat center center fixed; 
+	background: url(../../img/Flight/Flight4.jpg) no-repeat center center fixed; 
 	min-height:100%;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
