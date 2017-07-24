@@ -1,6 +1,6 @@
 jQuery(function($){
 
-var BRUSHED = window.BRUSHED || {};
+var BRUSHED = window.PalmettoPhotos || {};
 
 /* ==================================================
    Mobile Navigation
@@ -193,7 +193,7 @@ BRUSHED.contactForm = function(){
 		$contact_form = $('#contact-form');
 		
 		var fields = $contact_form.serialize();
-		
+		window.alert("script running");
 		$.ajax({
 			type: "POST",
 			url: "assets/PalmettoPhotos/php/contact.php",
