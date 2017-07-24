@@ -196,7 +196,7 @@ BRUSHED.contactForm = function(){
 		window.alert("script running");
 		$.ajax({
 			type: "POST",
-			url: "assets/PalmettoPhotos/php/contact.php",
+			url: "/assets/PalmettoPhotos/php/contact.php",
 			data: fields,
 			dataType: 'json',
 			success: function(response) {
