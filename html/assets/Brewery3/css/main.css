@@ -271,12 +271,13 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header_bg.jpg) no-repeat center top;
+	background-image: url("../img/header_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
 	min-height: 650px;
 	width: 100%;
 	
@@ -291,7 +292,25 @@ a:after {
     background-size: cover;
 }
 #headerwrap.about{
-    background: url(../img/bg/AboutHeader.png)no-repeat center top;
+    background-image: url("../img/bg/AboutHeader.png");
+}
+#headerwrap.products{
+    background-image: url("../img/bg/ProductHeader.png");
+}
+#headerwrap.team{
+    background-image: url("../img/bg/TeamHeader.png");
+}
+#headerwrap.blog{
+    background-image: url("../img/bg/BlogHeader.png");
+}
+#headerwrap.contact{
+    background-image: url("../img/bg/AboutHeader.png");
+}
+#headerwrap.store{
+    background-image: url("../img/bg/AboutHeader.png");
+}
+#headerwrap.Wholesale{
+	background-image: url("../img/bg/WholesaleHeader.png");
 }
 #headerwrap h1 {
 	color:#ffffff;
