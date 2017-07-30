@@ -290,7 +290,9 @@ a:after {
     -o-background-size: cover;
     background-size: cover;
 }
-
+#headerwrap.about{
+    background: url(../img/bg/AboutHeader.png)no-repeat center top;
+}
 #headerwrap h1 {
 	color:#ffffff;
 	margin-top: 90px;
