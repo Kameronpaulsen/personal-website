@@ -79,11 +79,7 @@
   				<div class="col-md-4 ">
   					<div class="grid mask">
   						<figure>
-  							<img class="img-responsive" src="img/portfolio/CoorsTransparent.png" alt="">
-  							<figcaption>
-  								<h5>Beer 1</h5>
-  								<a data-toggle="modal" href="#porfolio1modal" class="btn btn-primary btn-lg">Take a Look</a>
-  							</figcaption><!-- /figcaption -->
+  							<img id= "portfolioimg1" class="img-responsive" src="img/portfolio/CoorsTransparent.png" alt="">
   						</figure><!-- /figure -->
   					</div><!-- /grid-mask -->
   				</div><!-- /col -->
@@ -91,7 +87,6 @@
 
                          <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
                          a modal for each of your projects. -->
-
                          <div class="modal fade" id="porfolio1modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                          	<div class="modal-dialog">
                          		<div class="modal-content">
@@ -305,9 +300,20 @@
     <script type="text/javascript" src="js/jquery-func.js"></script>
     <script type="text/javascript" src="js/wow.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
     <script type="text/javascript">
     	new WOW().init();
     </script>
 
+    <script>
+   		
+    	$(document).ready(function(){
+    	$('portfolio').on("click",'#portfolioimg1', function() {
+    		debugger;
+    		$('#portfolio1modal').modal('show');
+   		});
+   	});
+
+   </script>
 </body>
 </html>

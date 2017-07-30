@@ -436,19 +436,16 @@ a:after {
 .divider1 {
     padding-top:10%;
 	background-image: url('../img/bg/divider1.jpg');
-    padding-bottom:10%;
 }
 
 .divider2 {
     padding-top:10%;
 	background-image: url('../img/bg/divider2.jpg');
-    padding-bottom:10%;
 }
 
 .divider3 {
     padding-top:10%;
 	background-image: url('../img/bg/divider3.jpg');
-    padding-bottom:10%;
 	margin-top: 0px;
 }
 
