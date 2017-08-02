@@ -62,12 +62,14 @@
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		var sound;
+		var sound = new Howl({
+			src:['assets/piano/sounds/C4.mp3']
+		});
 		$('#C').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 		    	src: ['assets/piano/sounds/C4.mp3']
 		    });
-		    sound.stop();
 			sound.play();
 			$("#C").mouseup(function(){
 				sound.stop();
@@ -77,10 +79,10 @@
 			});
 		});
 		$('#Cs').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/Csharp4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#Cs').mouseup(function(){
 				sound.stop();
@@ -90,10 +92,10 @@
 			});
 		});
 		$('#D').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/D4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#D').mouseup(function(){
 				sound.stop();
@@ -103,10 +105,10 @@
 			});
 		});
 		$('#Ds').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/Dsharp4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#Ds').mouseup(function(){
 				sound.stop();
@@ -116,10 +118,10 @@
 			});
 		});
 		$('#E').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/E4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#E').mouseup(function(){
 				sound.stop();
@@ -129,10 +131,10 @@
 			});
 		});
 		$('#F').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/F4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#F').mouseup(function(){
 				sound.stop();
@@ -142,10 +144,10 @@
 			});
 		});
 		$('#Fs').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/Fsharp4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#Fs').mouseup(function(){
 				sound.stop();
@@ -155,10 +157,10 @@
 			});
 		});
 		$('#G').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/G4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#G').mouseup(function(){
 				sound.stop();
@@ -168,10 +170,10 @@
 			});
 		});
 		$('#Gs').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/Gsharp4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#Gs').mouseup(function(){
 				sound.stop();
@@ -181,10 +183,10 @@
 			});
 		});
 		$('#A').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/A4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#A').mouseup(function(){
 				sound.stop();
@@ -194,10 +196,10 @@
 			});
 		});
 		$('#As').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/Asharp4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#As').mouseup(function(){
 				sound.stop();
@@ -207,10 +209,10 @@
 			});
 		});
 		$('#B').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/B4.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#B').mouseup(function(){
 				sound.stop();
@@ -220,10 +222,10 @@
 			});
 		});
 		$('#2C').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/C5.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#2C').mouseup(function(){
 				sound.stop();
@@ -233,10 +235,10 @@
 			});
 		});
 		$('#2Cs').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/Csharp5.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#2Cs').mouseup(function(){
 				sound.stop();
@@ -246,10 +248,10 @@
 			});
 		});
 		$('#2D').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/D5.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#2D').mouseup(function(){
 				sound.stop();
@@ -259,10 +261,10 @@
 			});
 		});
 		$('#2Ds').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/Dsharp5.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#2Ds').mouseup(function(){
 				sound.stop();
@@ -272,10 +274,10 @@
 			});
 		});
 		$('#2E').mousedown(function(){
+			sound.stop();
 			sound = new Howl({
 				src: ['assets/piano/sounds/E5.mp3']
 			});
-			sound.stop();
 			sound.play();
 			$('#2E').mouseup(function(){
 				sound.stop();
