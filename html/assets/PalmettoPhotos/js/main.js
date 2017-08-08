@@ -193,6 +193,7 @@ BRUSHED.contactForm = function(){
 		$contact_form = $('#contact-form');
 		
 		var fields = $contact_form.serialize();
+		console.log(fields);
 		window.alert("script running");
 		$.ajax({
 			type: "POST",
