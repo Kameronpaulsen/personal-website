@@ -223,7 +223,7 @@ BRUSHED.tweetFeed = function(){
 	var valueTop = -64; // Margin Top Value
 	
     $("#ticker").tweet({
-          modpath: 'twitter/',
+          modpath: 'twitter',
           username: "Bluxart", // Change this with YOUR ID
           page: 1,
           avatar_size: 0,
