@@ -101,7 +101,7 @@ class Contact_Form{
 	}
 }
 
-
+echo '<script> console.log($_POST)</script'>;
 $contact_form = new Contact_Form($_POST, $admin_email, $message_min_length);
 $contact_form->sendRequest();
 
