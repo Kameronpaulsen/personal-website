@@ -406,7 +406,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: 'placeholder.js', 
+		nope: 'assets/PalmettoPhotos/js/placeholder.js', 
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
