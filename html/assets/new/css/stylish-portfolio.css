@@ -232,23 +232,6 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
 
 /* Call to Action */
 
@@ -273,7 +256,6 @@ hr.small {
     margin:0;
     margin-bottom:20px;
     text-align:center;
-    
 }
 
 .categories ul li{
@@ -487,6 +469,18 @@ hr.small {
 
 .portfolio-thumb .project-title:hover {
     color:#5CC9DF;
+}
+
+.modal-header {
+	background: #3498db;
+}
+
+.modal-header h4 {
+	color: white;
+}
+
+.modal-footer {
+	background: #3498db;
 }  
 
 @media(max-width:768px) {
