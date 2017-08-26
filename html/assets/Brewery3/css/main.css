@@ -271,7 +271,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background-image: url("../img/header_bg.jpg");
+	background-image: url("../img/CK_Logo.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin-top: -50px;
@@ -295,7 +295,7 @@ a:after {
     background-image: url("../img/bg/AboutHeader.png");
 }
 #headerwrap.products{
-    background-image: url("../img/bg/ProductHeader.png");
+    background-image: url("../img/CK_Bottles.png");
 }
 #headerwrap.team{
     background-image: url("../img/bg/TeamHeader.png");
@@ -307,7 +307,7 @@ a:after {
     background-image: url("../img/bg/AboutHeader.png");
 }
 #headerwrap.store{
-    background-image: url("../img/bg/AboutHeader.png");
+    background-image: url("../img/CK_Bottles.png");
 }
 #headerwrap.Wholesale{
 	background-image: url("../img/bg/WholesaleHeader.png");
@@ -327,7 +327,7 @@ a:after {
 	font-size: 40px;
 	font-weight: 400;
 	text-align: center;
-	line-height: 40px;
+	line-height: 100px;
 	letter-spacing: 3px;
 	margin-left: 15px;
 	text-shadow: 1px 1px 1px #000;
@@ -358,13 +358,16 @@ a:after {
 	line-height: 30px;
 	margin-bottom: 10px;
 }
+#greywrap a
+{
+    color:black;
+}
 
 #footerwrap {
 	background: #2b2b2b;
 	margin-top: 0px;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #ddd;
 	text-align: center;
 }
 
