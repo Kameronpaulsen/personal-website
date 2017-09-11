@@ -103,7 +103,7 @@ margin-left: -15px;
 }
 
 .modal-header {
-	background: #3498db;
+	background: black;
 }
 
 .modal-header h4 {
@@ -111,7 +111,7 @@ margin-left: -15px;
 }
 
 .modal-footer {
-	background: #2b2b2b;
+	background: black;
 }
 
 
@@ -565,7 +565,7 @@ a:after {
 	left: 0;
 	padding: 20px;
 	color: #fff;
-	background: #3498db;
+	background: black;
 }
 
 .grid figcaption h5 {
