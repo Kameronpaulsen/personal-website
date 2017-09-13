@@ -271,25 +271,25 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background-image: url("../img/CK_Logo.png");
+    /*
+	background-image: url("../img/CK_Logo_Raw_Transparent.png");
 	background-repeat: no-repeat;
-	background-position: center center;
-	margin-top: -50px;
-	padding-top:120px;
-	text-align:center;
-	background-attachment: fixed;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+	background-position: center;
+    background-attachment: fixed;
+    */
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 60vh;
+    width:100%;
+    padding-top:50px;
+    margin: auto;
+	text-align: center;
+	min-height: 600px;
+	width: 100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
 }
 #headerwrap.about{
     background-image: url("../img/bg/AboutHeader.png");
@@ -303,27 +303,27 @@ a:after {
 #headerwrap.blog{
     background-image: url("../img/bg/BlogHeader.png");
 }
-#headerwrap.contact{
-    background-image: url("../img/bg/AboutHeader.png");
-}
 #headerwrap.store{
     background-image: url("../img/CK_Bottles.png");
 }
+
 #headerwrap.Wholesale{
 	background-image: url("../img/bg/WholesaleHeader.png");
 }
+
 #headerwrap h1 {
-	color:#ffffff;
-	margin-top: 90px;
+	color:black;
+	margin-top: 20px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
-	font-size: 100px;
+	font-size: 60px;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
 }
 
 #headerwrap p {
-	color:#ffffff;
+	color:black;
+    padding-top:100px;
 	font-size: 40px;
 	font-weight: 400;
 	text-align: center;
@@ -334,6 +334,8 @@ a:after {
 }
 
 #greywrap {
+    height: 35vh;
+    width:100%;
 	background: #f5f5f5;
 	margin-top: 0px;
 	padding-top: 40px;
@@ -366,16 +368,14 @@ a:after {
 }
 
 #footerwrap {
+    height: 5vh;
+    width: 100%;
 	background: #2b2b2b;
-	margin-top: 0px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	text-align: center;
 }
 
 #footerwrap h4 {
     padding-top:15px;
-    padding-bottom:15px;
 	color: white;
 }
 
