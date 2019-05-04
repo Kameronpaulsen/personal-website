@@ -24,6 +24,7 @@
 	<script type="text/javascript" src="assets/mdbootstrap/js/mdb.min.js"></script>
 </head>
 <body id="body">
+	<div id="load"></div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-12" style="padding-left:	0;padding-right: 0;">
@@ -219,14 +220,12 @@
 </script>
 
 <script>
-	$('body').append('#load');
 	$(window).on('load', function(){
 		removeLoad();
 	});
 	function removeLoad(){
 		console.log("removeLoad called");
-
-		$('#load').fadeOut(500,function(){
+		$('#load').fadeOut(100,function(){
 			$('#load').remove();
 			console.log("removed");
 		});
