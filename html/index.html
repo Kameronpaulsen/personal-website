@@ -193,7 +193,7 @@
 		</div>
 	</div>
 </section>
-<div class="modal"><!-- Place at bottom of page --></div>
+<div id="load"><!-- Place at bottom of page --></div>
 
 <section name="footer" id="footer">
 	<div class="container-fluid">
@@ -216,14 +216,14 @@
 	});
 </script>
 
-<script>
-	$body = $("body");
-	console.log("loading");
+<script>document.onreadystatechange = function () {
+	var state = document.readyState
+	if (state == 'complete') {
+		document.getElementById('interactive');
+		document.getElementById('load').style.visibility="hidden";
+	}
+}
 
-	$(document).on({
-		ajaxStart: function() { $body.addClass("loading");    },
-		ajaxStop: function() { $body.removeClass("loading"); }    
-	});
 </script>
 
 <!-- MDB core JavaScript -->
