@@ -2,549 +2,220 @@
 <html lang="en">
 
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Kameron Paulsen">
+	<meta name="google" value="notranslate">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="google" value="notranslate">
+	<title>KameronPaulsen.com</title>
+	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/mdbootstrap/css/mdb.min.css">
+	<!-- TODO Replace CDN http paths with static asset path included in project -->
+	<!-- replace with react.production.min.js react-dom.production.min.js -->
+	<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="assets/mdbootstrap/js/jquery-3.4.0.min.js"></script>
+	<script type="text/javascript" src="assets/mdbootstrap/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/mdbootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/mdbootstrap/js/mdb.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12" style="padding-left:	0;padding-right: 0;">
+				<div class="navbar">
+					<ul>
+						<li class="navbar-item active"><a href="#home">Home</a></li> 
+						<li class="navbar-item"><a href="#about">About</a></li>
+						<li class="navbar-item"><a href="#contact">Contact</a></li>
+						<li class="navbar-item"><a href="#projects">Projects</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<section id="home">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+					<h1>Kameron Paulsen</h1>
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <title>KameronPaulsen.com</title>
+	<section name="about" id="about">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-4"> 
+				</div> 
+				<div class="col-sm-4">
+					<h1>About Me</h1>
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+			<div class="row text-center" style="padding-top: 1%;">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div> 
+				<div class="col-sm-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="assets/new/css/bootstrap.min.css" rel="stylesheet">
+	<section name="projects" id="projects">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-4"> 
+				</div> 
+				<div class="col-sm-4">
+					<h1>Projects</h1>
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Custom CSS -->
-    <link href="assets/new/css/stylish-portfolio.min.css" rel="stylesheet">
-    <link href="assets/new/css/portfolio.jquery.min.css" rel="stylesheet">
-    <link href="assets/new/css/animate.min.css" rel="stylesheet" >
+	<section name="portfolio" id="portfolio">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-lg-4"> 
+				</div> 
+				<div class="col-lg-4">
+					<!--Carousel Wrapper-->
+					<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+						<!--Indicators-->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-2" data-slide-to="1"></li>
+							<li data-target="#carousel-example-2" data-slide-to="2"></li>
+							<li data-target="#carousel-example-2" data-slide-to="3"></li>
+						</ol>
+						<!--/.Indicators-->
+						<!--Slides-->
+						<div class="carousel-inner" role="listbox">
+							<div class="carousel-item active">
+								<div class="view">
+									<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+									alt="First slide">
+									<div class="mask rgba-black-light"></div>
+								</div>
+								<div class="carousel-caption">
+									<h3 class="h3-responsive">Light mask</h3>
+									<p>First text</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<!--Mask color-->
+								<div class="view">
+									<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+									alt="Second slide">
+									<div class="mask rgba-black-strong"></div>
+								</div>
+								<div class="carousel-caption">
+									<h3 class="h3-responsive">Strong mask</h3>
+									<p>Secondary text</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<!--Mask color-->
+								<div class="view">
+									<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+									alt="Third slide">
+									<div class="mask rgba-black-slight"></div>
+								</div>
+								<div class="carousel-caption">
+									<h3 class="h3-responsive">Slight mask</h3>
+									<p>Third text</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<!--Mask color-->
+								<div class="view">
+									<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+									alt="Fourth slide">
+									<div class="mask rgba-black-slight"></div>
+								</div>
+								<div class="carousel-caption">
+									<h3 class="h3-responsive">Slight mask</h3>
+									<p>Fourth text</p>
+								</div>
+							</div>
+						</div>
+						<!--/.Slides-->
+						<!--Controls-->
+						<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+						<!--/.Controls-->
+					</div>
+					<!--/.Carousel Wrapper-->
+				</div>
+				<div class="col-lg-4">
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" />
-    <link href="assets/new/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href="assets/css/arctext.css" rel='stylesheet' type='text/css'>
+	<section name="contact" id="contact">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+					<h1>Contact</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+		</div>
+	</section>
 
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+	<section name="footer" id="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+		</div>
+	</section>
 
-    </head>
-
-    <body>
-        <!-- Navigation -->
-        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle wow fadeIn" data-wow-delay="1s"><i class="fa fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-                <li class="sidebar-brand">
-                    <a href="#top" onclick=$("#menu-close").click();>KameronPaulsen.com</a>
-                </li>
-                <li>
-                    <a href="#top" onclick=$("#menu-close").click();>Home</a>
-                </li>
-                <li>
-                    <a href="#about" onclick=$("#menu-close").click();>About</a>
-                </li>
-                <li>
-                    <a href="#services" onclick=$("#menu-close").click();>Services</a>
-                </li>
-                <li>
-                    <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-                </li>
-                <li>
-                 <a href="#Resume" onclick=$("#menu-close").click();>Resume</a>
-             </li>
-             <li>
-                <a href="#footer" onclick=$("#menu-close").click();>Contact</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header wow fadeIn" data-wow-delay="1s">
-        <div class="text-vertical-center wow fadeIn" data-wow-delay="1.3s">
-            <h1 style="font-family: 'Dancing Script', cursive;">Kameron<br>Paulsen.com</h1>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg wow fadeIn" data-wow-delay="1.7s">Find Out More</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about bg-about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center wow fadeIn" data-wow-delay="1s">
-                    <h2 style="font-family: 'Lobster', cursive;">Kameron Paulsen</h2>
-                    <p class="lead">Software Developer</p>
-                    <hr>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <section id="services" class="services bg-services">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2 style="font-family: 'Dancing Script', cursive;" class="wow fadeIn" data-wow-delay="1s">My Services</h2>
-                    <h4 class ="wow fadeIn" data-wow-delay="1.2s"> Responsive Feature Rich Web Development</h4>
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item wow fadeIn" data-wow-delay=".5s">
-                                <span class="fa-stack fa-4x">
-                                    <icon class="icon-lg ion-social-javascript-outline"></icon>
-                                </span>
-                                <h4 style="font-family: 'Dancing Script', cursive;">
-                                    <strong>Java Script</strong>
-                                </h4>
-                                <p>Javascript allows you to add compelling features for your clients. I can help you implement rich web applications
-                                    that catch your user's eye and afford your clients a seemless experience.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="service-item wow fadeIn" data-wow-delay=".8s">
-                                    <span class="fa-stack fa-4x">
-                                        <icon class="icon-lg ion-social-nodejs wow fadeIn"></icon>
-                                    </span>
-                                    <h4 style="font-family: 'Dancing Script', cursive;">
-                                        <strong>NodeJs</strong>
-                                    </h4>
-                                    <p>NodeJs is a backend runtime environment that allows javascript to run on a server. Do you want to offer your clients data-intensive real-time
-                                        applications and services? Let me help you set up a responsive backend that handles the dirty work for you.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="service-item wow fadeIn" data-wow-delay="1.1s">
-                                        <span class="fa-stack fa-4x">
-                                           <icon class="icon-lg ion-social-css3 wow fadeIn"></icon>
-                                       </span>
-                                       <h4 style="font-family: 'Dancing Script', cursive;">
-                                        <strong>CSS</strong>
-                                    </h4>
-                                    <p>Everything on your website and applications is customizable. Don't like a typeface or font? Do you wish that text was center aligned? Do you
-                                        want your website to look great on any device? I can help.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="service-item wow fadeIn" data-wow-delay="1.4s">
-                                        <span class="fa-stack fa-4x">
-                                            <icon class="icon-lg ion-social-html5-outline"></icon>
-                                        </span>
-                                        <h4 style="font-family: 'Dancing Script', cursive;">
-                                            <strong>HTML</strong>
-                                        </h4>
-                                        <p>Html has been an integral part of the web for over 20 years. Rest easy knowing your website will run in any browser, mobile or desktop.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.row (nested) -->
-                        </div>
-                        <!-- /.col-lg-10 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container -->
-            </section>
-
-            <!-- Portfolio -->
-            <section id="portfolio" class="bg-portfolio wow fadeInLeft" data-wow-delay="1.5s">
-                <div class="container">
-                    <div class="row text-center" style="font-family: 'Dancing Script', cursive;">
-                        <h1>Portfolio</h1>
-                         <br>
-                    </div>
-                    <div class="row">
-                     <div class="categories">
-                        <ul>
-                            <li class="active">
-                                <a href="#portfolio" data-filter="*">All Categories</a>
-                            </li>
-                            <li>
-                                <a href="#portfolio" data-filter=".web-sites">Web Sites</a>
-                            </li>
-                            <li>
-                                <a href="#portfolio" data-filter=".apps">Apps</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="projects-container scrollimation in">
-                    <div class="row text-center">
-                        <article class="col-md-4 col-sm-6 portfolio-item web-sites" id="portfolio1">
-                            <div class="portfolio-thumb in">
-                                <a target="_blank" class="main-link">
-                                    <img class="img-responsive img-center" src="assets/new/img/Brewery.PNG" alt="">
-                                    <h2 class="project-title">Brewery</h2>
-                                    <span class="overlay-mask"></span>
-                                </a>
-                                <a class="enlarge cboxElement" title="Brewery Project"><i class="fa fa-expand fa-fw"></i></a>
-                                <a class="link"><i class="fa fa-eye fa-fw"></i></a>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 col-sm-6 portfolio-item web-sites" id="portfolio2">
-                            <div class="portfolio-thumb in">
-                                <a class="main-link">
-                                    <img class="img-responsive img-center" src="assets/new/img/Brewery2.PNG" alt="">
-                                    <h2 class="project-title">Cru Kombucha</h2>
-                                    <span class="overlay-mask"></span>
-                                </a>
-                                <a class="enlarge cboxElement" title="Brewery2 Project"><i class="fa fa-expand fa-fw"></i></a>
-                                <a class="link"><i class="fa fa-eye fa-fw"></i></a>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 col-sm-6 portfolio-item web-sites" id="portfolio3">
-                            <div class="portfolio-thumb in">
-                                <a class="main-link">
-                                    <img class="img-responsive img-center" src="assets/new/img/Arch.png" alt="">
-                                    <h2 class="project-title">Yet Another Brewery</h2>
-                                    <span class="overlay-mask"></span>
-                                </a>
-                                <a class="enlarge cboxElement" title="Brewery3 Project"><i class="fa fa-expand fa-fw"></i></a>
-                                <a class="link"><i class="fa fa-eye fa-fw"></i></a>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 col-sm-6 portfolio-item web-sites" id="portfolio4">
-                            <div class="portfolio-thumb in">
-                                <a class="main-link">
-                                    <img class="img-responsive img-center" src="assets/new/img/Fad.svg" alt="">
-                                    <h2 class="project-title">Is It A Fad?</h2>
-                                    <span class="overlay-mask"></span>
-                                </a>
-                                <a class="enlarge cboxElement" title="Fad Website"><i class="fa fa-expand fa-fw"></i></a>
-                                <a class="link" ><i class="fa fa-eye fa-fw"></i></a>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 col-sm-6 portfolio-item web-sites" id="portfolio5">
-                            <div class="portfolio-thumb in">
-                                <a class="main-link">
-                                    <img class="img-responsive img-center" src="assets/new/img/Flight.PNG" alt="">
-                                    <h2 class="project-title">Flight Website</h2>
-                                    <span class="overlay-mask"></span>
-                                </a>
-                                <a class="enlarge cboxElement" title="Flight Website"><i class="fa fa-expand fa-fw"></i></a>
-                                <a class="link"><i class="fa fa-eye fa-fw"></i></a>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 col-sm-6 portfolio-item apps" id="portfolio6">
-                            <div class="portfolio-thumb in">
-                                <a class="main-link">
-                                    <img class="img-responsive img-center" src="assets/new/img/PianoThumb.png" alt="">
-                                    <h2 class="project-title">Piano App</h2>
-                                    <span class="overlay-mask"></span>
-                                </a>
-                                <a class="enlarge cboxElement" title="Piano App"><i class="fa fa-expand fa-fw"></i></a>
-                                <a class="link"><i class="fa fa-eye fa-fw"></i></a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+	<script type="text/javascript">
+		$("li.navbar-item").on("click", function(e){
+			//e.preventDefault();
+  			//$("li.navbar-item").children().foreach().removeClass("active");
+  			$("ul a").removeClass("active");
+  			$("ul").children().removeClass("active");
+  			$(e.target).addClass("active");
+		});
+	</script>
 
 
-            <div class="modal fade" id="portfoliomodal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Brewery Website</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p><img class="img-responsive" src="assets/new/img/Brewery.PNG" alt=""></p>
-                            <p>This is a website for a brewery</p>
-                            <p><b><a target="_blank" href="Brewery2.html">Visit Site</a></b></p>
-                        </div>
-                        <div class="modal-footer text-center">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <div class="modal fade" id="portfoliomodal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Cru Kombucha</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p><img class="img-responsive" src="assets/new/img/Brewery2.PNG" alt=""></p>
-                            <p>This is a website for Cru Kombucha. It features a multipage design and a product portfolio with an interactive Store</p>
-                            <p><b><a target="_blank" href="http://CruKombucha.com">Visit Site</a></b></p>
-                        </div>
-                        <div class="modal-footer text-center">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <div class="modal fade" id="portfoliomodal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Yet Another Brewery Website</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p><img class="img-responsive" src="assets/new/img/Arch.png" alt=""></p>
-                            <p>This is yet another website for a brewery. What can I say, I like beer.</p>
-                            <p><b><a target="_blank" href="Brewery.html">Visit Site</a></b></p>
-                        </div>
-                        <div class="modal-footer text-center">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <div class="modal fade" id="portfoliomodal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Is It A Fad?</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p><img class="img-responsive" src="assets/new/img/Fad.svg" alt=""></p>
-                            <p>This is a website to tell you if things are fads or not</p>
-                            <p><b><a target="_blank" href="http://kameronpaulsen.com:3000">Visit Site</a></b></p>
-                        </div>
-                        <div class="modal-footer text-center">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <div class="modal fade" id="portfoliomodal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Flight</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p><img class="img-responsive" src="assets/new/img/Flight.PNG" alt=""></p>
-                            <p>This is a website dedicated to learning about the magic of flight.</p>
-                            <p><b><a target="_blank" href="Flight.html">Visit Site</a></b></p>
-                        </div>
-                        <div class="modal-footer text-center">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <div class="modal fade" id="portfoliomodal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Piano App</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p><img class="img-responsive" src="assets/new/img/PianoThumb.png" alt=""></p>
-                            <p>This is a simple piano app. Click and hold to play the keys!</p>
-                            <p><b><a target="_blank" href="Piano.html">Visit Site</a></b></p>
-                        </div>
-                        <div class="modal-footer text-center">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            </div>
-        </section>
-
-        <section id="Resume" class="bg-resume wow fadeIn" data-wow-delay="1s" style="padding-top:40px;">
-        	<div class="container">
-        		<div class="row text-center">
-        			<div class="col-lg-4">
-        			</div>
-        			<div class="col-lg-2 col-lg-offset-1">
-        					<h2 style="font-family: 'Dancing Script', cursive;" class="wow fadeIn" data-wow-delay="1s">Resume</h2>
-        					<a target="_blank" href="assets/PDF/Resume.pdf"><img class="img-responsive" src="assets/new/img/writing.jpg" alt=""></a>
-        			</div>
-        			<div class="col-lg-4">
-        			</div>
-        		</div>
-        	</div>
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer" class="bg-footer">
-            <div class="container">
-                <div class="row test-center">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h4><strong>Kameron paulsen</strong>
-                        </h4>
-                        <p>3018 Mountain Ridge Court
-                            <br>Park City, UT 84060</p>
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-phone fa-fw"></i>(435)962-1203</li>
-                                <li><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:kameronpaulsen@gmail.com" style="color:black">kameronpaulsen@gmail.com</a>
-                                </li>
-                            </ul>
-                            <br>
-                            <ul class="list-inline">
-                             <li>
-                                <a href="https://www.linkedin.com/in/kameron-paulsen-69694894/" style="color: black;"><i class="fa fa-linkedin fa-fw fa-3x" style="color:black"></i></a>
-                            </li>
-                        </ul>
-                        <hr class="small" style="color:black">
-                        <p class="text">Copyright &copy; Kameronpaulsen.com 2017</p>
-                    </div>
-                </div>
-            </div>
-            <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-        </footer>
-
-        <!-- jQuery -->
-        <script type="text/javascript" src="assets/new/js/jquery.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="assets/new/js/portfolio.jquery.min.js"></script>
-        <script src="js/jquery.arctext.min.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="assets/new/js/bootstrap.min.js"></script>
-
-        <!-- Custom Theme JavaScript -->
-        <script src="assets/new/js/wow.js"></script>
-
-        <!-- Arc Text -->
-        <script>
-           //var $word1 = $('#top').find('h1').hide();
-           //$word1.show().arctext({radius: 900, dir:1, rotate: false});
-           var $word2 = $('#services').find('h2').hide();
-           $word2.show().arctext({radius: 1000, dir:1, rotate: false});
-       </script>
-
-       <!-- WoW JS fade in animation -->
-       <script>
-          new WOW().init();
-      </script>
-      <!-- portfolio -->
-      <script>
-          $(document).ready(function() {
-            $('.thumbs').portfolio({
-                cols: 3,
-                transition: 'slideDown'
-            });
-        });
-    </script>
-
-    <script type="text/javascript">
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-
-    $(function(){
-        $('.categories a').click(function(e){
-            $('.categories ul li').removeClass('active');
-            $(this).parent('li').addClass('active');
-            var itemSelected = $(this).attr('data-filter');
-            $('.portfolio-item').each(function(){
-                if (itemSelected == '*'){
-                    $(this).removeClass('filtered').removeClass('selected');
-                    return;
-                } else if($(this).is(itemSelected)){
-                    $(this).removeClass('filtered').addClass('selected');
-                } else{
-                    $(this).removeClass('selected').addClass('filtered');
-                }
-            });
-        });
-    });
-
-    $(document).ready(function(){
-            $('#portfolio').on("click",'#portfolio1', function() {   
-                $('#portfoliomodal1').modal('toggle');
-            });
-            $('#portfolio').on("click",'#portfolio2', function() {   
-                $('#portfoliomodal2').modal('toggle');
-            });
-            $('#portfolio').on("click",'#portfolio3', function() {   
-                $('#portfoliomodal3').modal('toggle');
-            });
-            $('#portfolio').on("click",'#portfolio4', function() {   
-                $('#portfoliomodal4').modal('toggle');
-            });
-            $('#portfolio').on("click",'#portfolio5', function() {   
-                $('#portfoliomodal5').modal('toggle');
-            });
-            $('#portfolio').on("click",'#portfolio6', function() {   
-                $('#portfoliomodal6').modal('toggle');
-            });
-        });
-
-</script>
-
+	<!-- MDB core JavaScript -->
 </body>
-
 </html>
