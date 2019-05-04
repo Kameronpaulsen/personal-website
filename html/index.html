@@ -23,7 +23,7 @@
 	<script type="text/javascript" src="assets/mdbootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/mdbootstrap/js/mdb.min.js"></script>
 </head>
-<body>
+<body id="body">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-12" style="padding-left:	0;padding-right: 0;">
@@ -193,7 +193,6 @@
 		</div>
 	</div>
 </section>
-<div id="load"><!-- Place at bottom of page --></div>
 
 <section name="footer" id="footer">
 	<div class="container-fluid">
@@ -208,6 +207,9 @@
 	</div>
 </section>
 
+<!-- Loading Screen -->
+<div id="load"></div>
+
 <script>
 	$("li.navbar-item").on("click", function(e){
 		$("ul a").removeClass("active");
@@ -216,16 +218,19 @@
 	});
 </script>
 
-<script>document.onreadystatechange = function () {
-	var state = document.readyState
-	if (state == 'complete') {
-		document.getElementById('interactive');
-		document.getElementById('load').style.visibility="hidden";
+<script>
+	$(window).on('load', function(){
+		removeLoad();
+	});
+	function removeLoad(){
+		console.log("removeLoad called");
+
+		$('#load').fadeOut(500,function(){
+			$('#load').remove();
+			console.log("removed");
+		});
 	}
-}
-
 </script>
-
 <!-- MDB core JavaScript -->
 </body>
 </html>
